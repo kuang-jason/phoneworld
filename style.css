@@ -191,7 +191,7 @@ body {
 
 /* ##### CART SECTION ##### */
 .cart-overlay {
-  visibility: visible;
+  visibility: hidden;
   position: fixed;
   top: 0;
   right: 0;
@@ -213,7 +213,7 @@ body {
   background: rgb(231, 226, 221);
   padding: 1rem;
   transition: var(--mainTransition);
-  transform: translateX(100%);
+  transform: translateX(0);
 }
 
 .showCart {
@@ -223,6 +223,7 @@ body {
 .transparentBcg {
   visibility: visible;
 }
+
 @media screen and (min-width: 768px) {
   .cart {
     width: 30vw;
