@@ -1,0 +1,70 @@
+/* ##### GOOGLE FONT - LATO ##### */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* ##### CORE STYLING ##### */
+:root {
+  --primaryColor: #b777ff;
+  --mainWhite: #ffffff;
+  --mainBlack: #000000;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.2s linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--mainWhite);
+  background: var(--mainBlack);
+  font-family: "Lato", sans-serif;
+}
+
+/* ##### NAVBAR ##### */
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: lightgrey;
+  z-index: 1;
+}
+
+.navbar-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.logo-img {
+  max-width: 307.5px;
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+}
+
+.cart-btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-items {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--primaryColor);
+  padding: 0 5px;
+  border-radius: 30%;
+  color: var(--mainWhite);
+}
+
+/* ##### HERO SECTION ##### */
