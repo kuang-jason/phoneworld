@@ -106,3 +106,16 @@ body {
   background: transparent;
   color: var(--primaryColor);
 }
+
+/* ##### PRODUCTS SECTION ##### */
+.products {
+  padding: 4rem 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
