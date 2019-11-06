@@ -213,7 +213,7 @@ body {
   background: rgb(231, 226, 221);
   padding: 1rem;
   transition: var(--mainTransition);
-  transform: translateX(0);
+  transform: translateX(100%);
 }
 
 .showCart {
